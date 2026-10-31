@@ -1,0 +1,839 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0c1010" />
+
+  <meta
+    name="description"
+    content="TMS Electric Rides. Discover electric bikes, scooters and portable audio in Miami."
+  />
+
+  <title>TMS Electric Rides — New Collection Preview</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="pricing-status.css" />
+
+  <script src="products.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="pricing-status.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ANNOUNCEMENT -->
+
+  <div class="announcement">
+    <span class="announcement-dot" aria-hidden="true"></span>
+
+    <span>NEW COLLECTION / STORE PREVIEW</span>
+
+    <span class="announcement-right">
+      Miami, Florida
+      <span class="sparkle" aria-hidden="true">✳</span>
+      Independent everyday movement
+    </span>
+  </div>
+
+  <!-- HEADER -->
+
+  <header class="header" id="top">
+
+    <a
+      class="brand"
+      href="#top"
+      aria-label="TMS Electric Rides home"
+    >
+      <span class="brand-icon" aria-hidden="true">↯</span>
+
+      <span>
+        <strong>
+          TMS<span class="brand-period">.</span>
+        </strong>
+
+        <small>ELECTRIC RIDES</small>
+      </span>
+    </a>
+
+    <nav
+      id="main-nav"
+      class="nav"
+      aria-label="Main navigation"
+    >
+      <a href="#collection">Collection</a>
+      <a href="#categories">Categories</a>
+      <a href="#story">About us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-tools">
+
+      <!-- SEARCH -->
+
+      <button
+        type="button"
+        class="icon-btn"
+        id="search-button"
+        aria-label="Search catalog"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          aria-hidden="true"
+        >
+          <circle cx="10.8" cy="10.8" r="6.8" />
+          <path d="m16 16 5 5" />
+        </svg>
+      </button>
+
+      <!-- CART -->
+
+      <button
+        type="button"
+        class="cart-trigger"
+        id="open-cart"
+        aria-label="Open shopping cart"
+        aria-controls="cart-panel"
+        aria-haspopup="dialog"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          aria-hidden="true"
+        >
+          <path d="M3 5h2l2.2 11h11.6l2-8H6" />
+          <circle cx="9" cy="20" r="1" />
+          <circle cx="18" cy="20" r="1" />
+        </svg>
+
+        <span class="cart-count" id="cart-count">0</span>
+      </button>
+
+      <!-- MOBILE MENU -->
+
+      <button
+        type="button"
+        id="menu-toggle"
+        class="icon-btn menu-toggle"
+        aria-label="Toggle menu"
+        aria-controls="main-nav"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+    </div>
+
+  </header>
+
+  <!-- MAIN CONTENT -->
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="hero" aria-labelledby="hero-title">
+
+      <div class="hero-copy">
+
+        <div class="eyebrow">
+          <span class="eyebrow-line"></span>
+          ELECTRIC LIFESTYLE / 2026
+        </div>
+
+        <h1 id="hero-title">
+          GO<br />
+          <span>FURTHER.</span><br />
+          LIVE LOUDER<span class="hero-dot">.</span>
+        </h1>
+
+        <p>
+          Made for the way you move.
+          Discover electric mobility, everyday essentials
+          and sound that goes wherever life takes you.
+        </p>
+
+        <div class="hero-actions">
+
+          <a class="btn btn-primary" href="#collection">
+            EXPLORE THE COLLECTION
+            <span aria-hidden="true">↗</span>
+          </a>
+
+          <a class="btn btn-ghost" href="#story">
+            THE TMS WAY
+            <span aria-hidden="true">↗</span>
+          </a>
+
+        </div>
+
+        <div class="hero-index">
+          <span>01 / 03</span>
+          <span class="line"></span>
+          <span>MOVE. EXPLORE. REPEAT.</span>
+        </div>
+
+      </div>
+
+      <!-- HERO PRODUCT -->
+
+      <div class="hero-visual">
+
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+
+        <div class="visual-kicker">
+          <span>DESIGNED TO KEEP UP</span>
+          <span aria-hidden="true">↗</span>
+        </div>
+
+        <img
+          src="assets/products/ebike-happy-run-g100-pro.jpeg"
+          class="hero-product"
+          alt="HappyRun G100 Pro electric bicycle"
+          fetchpriority="high"
+        />
+
+        <span class="visual-big-number" aria-hidden="true">
+          TMS / 01
+        </span>
+
+        <div class="visual-bottom">
+          <span>YOUR LIFE, YOUR PACE</span>
+          <span>↗ NEW COLLECTION</span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- INFINITE TICKER -->
+
+    <div class="ticker" aria-hidden="true">
+
+      <div class="ticker-track">
+
+        <div class="ticker-group">
+          <span>ELECTRIC MOBILITY</span>
+          <b>✳</b>
+          <span>PORTABLE AUDIO</span>
+          <b>✳</b>
+          <span>BUILT FOR EVERYDAY</span>
+          <b>✳</b>
+          <span>THE FREEDOM TO MOVE</span>
+          <b>✳</b>
+
+          <span>ELECTRIC MOBILITY</span>
+          <b>✳</b>
+          <span>PORTABLE AUDIO</span>
+          <b>✳</b>
+          <span>BUILT FOR EVERYDAY</span>
+          <b>✳</b>
+          <span>THE FREEDOM TO MOVE</span>
+          <b>✳</b>
+        </div>
+
+        <div class="ticker-group" aria-hidden="true">
+          <span>ELECTRIC MOBILITY</span>
+          <b>✳</b>
+          <span>PORTABLE AUDIO</span>
+          <b>✳</b>
+          <span>BUILT FOR EVERYDAY</span>
+          <b>✳</b>
+          <span>THE FREEDOM TO MOVE</span>
+          <b>✳</b>
+
+          <span>ELECTRIC MOBILITY</span>
+          <b>✳</b>
+          <span>PORTABLE AUDIO</span>
+          <b>✳</b>
+          <span>BUILT FOR EVERYDAY</span>
+          <b>✳</b>
+          <span>THE FREEDOM TO MOVE</span>
+          <b>✳</b>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- CATEGORIES -->
+
+    <section
+      class="section category-section"
+      id="categories"
+      aria-labelledby="category-heading"
+    >
+
+      <div class="section-top">
+
+        <div>
+          <div class="eyebrow dark">
+            <span class="eyebrow-line"></span>
+            DISCOVER YOUR NEXT MOVE
+          </div>
+
+          <h2 id="category-heading">
+            Find your<br />
+            <em>kind of energy.</em>
+          </h2>
+        </div>
+
+        <p>
+          From the streets to the soundtrack —
+          find what moves you. Select a category
+          to explore the collection.
+        </p>
+
+      </div>
+
+      <div class="category-grid">
+
+        <!-- E-BIKES -->
+
+        <button
+          class="category-card category-bike"
+          data-category="Electric Bikes"
+          type="button"
+        >
+          <span class="category-number">
+            01 / CATEGORY
+          </span>
+
+          <img
+            src="assets/products/2xebike-1000w.jpeg"
+            class="category-photo"
+            alt=""
+            loading="lazy"
+          />
+
+          <div class="category-bottom">
+
+            <span>
+              <small>MOVE FREELY</small>
+              <strong>
+                Electric<br />
+                Bikes
+              </strong>
+            </span>
+
+            <span class="category-arrow" aria-hidden="true">
+              ↗
+            </span>
+
+          </div>
+
+        </button>
+
+        <!-- SCOOTERS -->
+
+        <button
+          class="category-card category-scooter"
+          data-category="Electric Scooters"
+          type="button"
+        >
+          <span class="category-number">
+            02 / CATEGORY
+          </span>
+
+          <img
+            src="assets/products/electric-scooter-ix5.jpeg"
+            class="category-photo"
+            alt=""
+            loading="lazy"
+          />
+
+          <div class="category-bottom">
+
+            <span>
+              <small>OWN THE STREETS</small>
+              <strong>
+                Electric<br />
+                Scooters
+              </strong>
+            </span>
+
+            <span class="category-arrow" aria-hidden="true">
+              ↗
+            </span>
+
+          </div>
+
+        </button>
+
+        <!-- AUDIO -->
+
+        <button
+          class="category-card category-audio"
+          data-category="Speakers"
+          type="button"
+        >
+          <span class="category-number">
+            03 / CATEGORY
+          </span>
+
+          <img
+            src="assets/products/jbl-flip-6.jpeg"
+            class="category-photo"
+            alt=""
+            loading="lazy"
+          />
+
+          <div class="category-bottom">
+
+            <span>
+              <small>TAKE THE SOUND</small>
+              <strong>
+                Portable<br />
+                Audio
+              </strong>
+            </span>
+
+            <span class="category-arrow" aria-hidden="true">
+              ↗
+            </span>
+
+          </div>
+
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- CATALOG -->
+
+    <section
+      class="section collection-section"
+      id="collection"
+      aria-labelledby="collection-heading"
+    >
+
+      <div class="section-top collection-intro">
+
+        <div>
+          <div class="eyebrow">
+            <span class="eyebrow-line"></span>
+            THE EDIT / NEW COLLECTION
+          </div>
+
+          <h2 id="collection-heading">
+            The good<br />
+            <em>stuff.</em>
+          </h2>
+        </div>
+
+        <p>
+          Explore the lineup.
+          Every item is selected to power
+          more of what you love.
+        </p>
+
+      </div>
+
+      <!-- FILTERS AND SEARCH -->
+
+      <div class="collection-controls">
+
+        <div
+          class="filter-buttons"
+          role="group"
+          aria-label="Filter products"
+        >
+
+          <button
+            class="filter active"
+            type="button"
+            data-filter="All"
+          >
+            All products
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-filter="Electric Bikes"
+          >
+            E-Bikes
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-filter="Electric Scooters"
+          >
+            Scooters
+          </button>
+
+          <button
+            class="filter"
+            type="button"
+            data-filter="Speakers"
+          >
+            Speakers
+          </button>
+
+        </div>
+
+        <div class="search-sort">
+
+          <label class="search-field">
+
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              aria-hidden="true"
+            >
+              <circle cx="11" cy="11" r="6.5" />
+              <path d="m16 16 5 5" />
+            </svg>
+
+            <input
+              id="product-search"
+              type="search"
+              placeholder="Search products"
+              aria-label="Search products"
+              autocomplete="off"
+            />
+
+          </label>
+
+          <select
+            id="sort-products"
+            aria-label="Sort products"
+          >
+            <option value="featured">Featured</option>
+            <option value="priceAsc">Price: low to high</option>
+            <option value="priceDesc">Price: high to low</option>
+            <option value="name">Name: A to Z</option>
+          </select>
+
+        </div>
+
+      </div>
+
+      <div class="results-line">
+        <span id="results-count">0 products</span>
+
+        <span class="results-note">
+          PRICES &amp; AVAILABILITY SUBJECT TO CONFIRMATION
+        </span>
+      </div>
+
+      <!-- DYNAMIC PRODUCTS -->
+
+      <div
+        class="product-grid"
+        id="product-grid"
+        aria-live="polite"
+        aria-relevant="additions removals"
+      ></div>
+
+      <!-- EMPTY STATE -->
+
+      <div
+        class="empty-results"
+        id="empty-results"
+        hidden
+      >
+        <div class="empty-icon" aria-hidden="true">↯</div>
+
+        <h3>No items in this category yet.</h3>
+
+        <p>
+          More products will be added
+          as the catalog is confirmed.
+        </p>
+
+        <button
+          type="button"
+          class="btn btn-dark"
+          id="reset-filters"
+        >
+          SHOW ALL PRODUCTS
+          <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+
+    </section>
+
+    <!-- ABOUT THE BRAND -->
+
+    <section class="highlight" id="story">
+
+      <div class="highlight-copy">
+
+        <div class="eyebrow">
+          <span class="eyebrow-line"></span>
+          NOT JUST A DESTINATION
+        </div>
+
+        <h2>
+          MAKE<br />
+          EVERY DAY<br />
+          <span>AN ADVENTURE.</span>
+        </h2>
+
+        <p>
+          Great gear should fit into your life —
+          not the other way around.
+          Find your next ride, your favorite
+          soundtrack and everything in between.
+        </p>
+
+        <a href="#collection" class="btn btn-primary">
+          SEE THE COLLECTION
+          <span aria-hidden="true">↗</span>
+        </a>
+
+      </div>
+
+      <div class="highlight-graphic" aria-hidden="true">
+
+        <span>
+          LIVE<br />
+          IN<br />
+          MOTION<span class="highlight-dot">.</span>
+        </span>
+
+        <i>↗</i>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact-section" id="contact">
+
+      <div>
+
+        <div class="eyebrow dark">
+          <span class="eyebrow-line"></span>
+          TMS / LET'S TALK
+        </div>
+
+        <h2>
+          QUESTIONS?<br />
+          <em>WE'RE HERE.</em>
+        </h2>
+
+      </div>
+
+      <div class="contact-right">
+
+        <p>
+          Want more details about a product?
+          Reach out to the team for up-to-date
+          availability and purchasing information.
+        </p>
+
+        <a
+          href="mailto:info@tmselectricrides.com?subject=TMS%20product%20inquiry"
+          class="btn btn-dark"
+        >
+          CONTACT THE TEAM
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <small>
+          Contact address from the existing TMS site.
+          Confirm before launch.
+        </small>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+
+      <a class="brand footer-brand" href="#top">
+
+        <span class="brand-icon" aria-hidden="true">
+          ↯
+        </span>
+
+        <span>
+          <strong>
+            TMS<span class="brand-period">.</span>
+          </strong>
+
+          <small>ELECTRIC RIDES</small>
+        </span>
+
+      </a>
+
+      <div class="footer-links">
+        <a href="#collection">Collection</a>
+        <a href="#categories">Categories</a>
+        <a href="#story">Our story</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <span>
+        © <span id="year">2026</span>
+        TMS Electric Rides. All rights reserved.
+      </span>
+
+      <span>
+        DESIGN PREVIEW · PAYMENTS NOT ACTIVE
+      </span>
+
+      <a href="#top">
+        BACK TO TOP ↑
+      </a>
+
+    </div>
+
+  </footer>
+
+  <!-- OVERLAY -->
+
+  <div
+    class="overlay"
+    id="overlay"
+    hidden
+  ></div>
+
+  <!-- SHOPPING CART -->
+
+  <aside
+    class="cart-panel"
+    id="cart-panel"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Shopping cart"
+    aria-hidden="true"
+  >
+
+    <div class="panel-header">
+
+      <div>
+        <small>YOUR SELECTION</small>
+
+        <h2>
+          Shopping cart
+          <span id="cart-header-count">(0)</span>
+        </h2>
+
+      </div>
+
+      <button
+        type="button"
+        class="close-btn"
+        id="close-cart"
+        aria-label="Close cart"
+      >
+        ×
+      </button>
+
+    </div>
+
+    <div
+      class="cart-items"
+      id="cart-items"
+    ></div>
+
+    <div class="cart-summary">
+
+      <div class="subtotal">
+        <span>Subtotal</span>
+        <strong id="cart-subtotal">$0.00</strong>
+      </div>
+
+      <p>
+        Demo storefront. Checkout will be enabled
+        only after Stripe and product availability
+        are confirmed.
+      </p>
+
+      <button
+        type="button"
+        class="checkout-btn"
+        id="checkout-demo"
+        disabled
+        aria-disabled="true"
+        title="Checkout is not available in this preview"
+      >
+        CHECKOUT COMING SOON ↗
+      </button>
+
+      <button
+        type="button"
+        class="continue-btn"
+        id="continue-shopping"
+      >
+        CONTINUE SHOPPING
+      </button>
+
+    </div>
+
+  </aside>
+
+  <!-- PRODUCT DETAILS -->
+
+  <div
+    class="product-modal"
+    id="product-modal"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Product details"
+    aria-hidden="true"
+  >
+
+    <button
+      type="button"
+      id="close-product"
+      class="close-btn modal-close"
+      aria-label="Close details"
+    >
+      ×
+    </button>
+
+    <div id="modal-body"></div>
+
+  </div>
+
+  <!-- NOTIFICATION -->
+
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+    aria-atomic="true"
+  ></div>
+
+</body>
+</html>

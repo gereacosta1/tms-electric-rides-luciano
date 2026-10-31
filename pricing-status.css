@@ -1,0 +1,114 @@
+
+/*
+ * TMS ELECTRIC RIDES
+ * Pricing Verification Styles
+ */
+
+/* Unverified product prices */
+
+.price-unverified .product-price {
+  color: #566456;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pricing-pending-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+
+  margin-top: 11px;
+  padding: 7px 10px;
+
+  background: #eef1e8;
+  border: 1px solid #dce3d2;
+
+  color: #607255;
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+}
+
+.pricing-pending-label::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+
+  background: #91a582;
+  border-radius: 50%;
+}
+
+/* Disabled add-to-cart buttons */
+
+.price-review-disabled,
+.price-review-disabled:hover {
+  background: #e9ede7 !important;
+  border-color: #dce3d7 !important;
+
+  color: #71806e !important;
+  cursor: not-allowed !important;
+
+  box-shadow: none !important;
+  transform: none !important;
+  opacity: 1;
+}
+
+.product-card .price-review-disabled {
+  font-size: 18px;
+}
+
+/* Product detail notice */
+
+.pricing-modal-notice {
+  padding: 13px 15px;
+  margin: 15px 0 20px !important;
+
+  background: #f1f4ee;
+  border-left: 3px solid #92ae7b;
+
+  color: #586957 !important;
+  font-size: 12px !important;
+
+  line-height: 1.7 !important;
+}
+
+.modal-add.price-review-disabled {
+  width: 100%;
+  min-height: 54px;
+
+  font-size: 10px;
+  letter-spacing: .11em;
+  font-weight: 800;
+}
+
+/* Price confirmation information */
+
+.results-note {
+  text-align: right;
+  color: #697b61;
+  font-weight: 800;
+}
+
+/* Mobile adjustments */
+
+@media (max-width: 760px) {
+  .pricing-pending-label {
+    max-width: 100%;
+    font-size: 8px;
+    letter-spacing: .055em;
+  }
+
+  .pricing-modal-notice {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .results-note {
+    max-width: 170px;
+    font-size: 8px;
+    line-height: 1.6;
+  }
+}

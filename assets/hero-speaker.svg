@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="660" viewBox="0 0 780 660" role="img" aria-label="Abstract portable speaker illustration">
+<defs>
+ <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#343f40"/><stop offset=".42" stop-color="#151c1b"/><stop offset=".76" stop-color="#101515"/><stop offset="1" stop-color="#36413e"/></linearGradient>
+ <linearGradient id="side" x1="0" x2="1"><stop stop-color="#181f1f"/><stop offset="1" stop-color="#566360"/></linearGradient>
+ <linearGradient id="rim" x1="0" x2="1"><stop stop-color="#76ff54"/><stop offset=".48" stop-color="#b4ff9c"/><stop offset="1" stop-color="#41a32c"/></linearGradient>
+ <pattern id="mesh" width="11" height="11" patternUnits="userSpaceOnUse"><circle r="1.65" cx="5.5" cy="5.5" fill="#687271" opacity=".75"/></pattern>
+ <filter id="sh"><feGaussianBlur stdDeviation="17"/></filter>
+</defs>
+<ellipse cx="394" cy="564" rx="296" ry="40" fill="#03180a" opacity=".4" filter="url(#sh)"/>
+<g transform="translate(60 90) rotate(-13 340 260)"><rect x="50" y="108" width="632" height="324" rx="159" fill="#101514"/><rect x="62" y="100" width="612" height="330" rx="165" fill="url(#side)"/><rect x="80" y="113" width="575" height="306" rx="151" fill="url(#b)"/><rect x="90" y="123" width="554" height="286" rx="144" fill="url(#mesh)" opacity=".62"/><rect x="86" y="119" width="556" height="293" rx="146" fill="none" stroke="#87928c" stroke-width="3" opacity=".5"/><ellipse cx="589" cy="264" rx="65" ry="125" fill="#141d1a" stroke="#6e7b73" stroke-width="3"/><ellipse cx="595" cy="264" rx="49" ry="101" fill="#23312c"/><ellipse cx="595" cy="264" rx="32" ry="69" fill="#111a16"/><ellipse cx="595" cy="264" rx="23" ry="53" fill="#78ef55" opacity=".22"/><path d="M134 271q18-35 35 0l16 19 16-19q18-35 35 0" stroke="url(#rim)" stroke-width="18" fill="none" stroke-linecap="round"/><path d="M160 329h232" stroke="#b6d1b9" stroke-width="2" opacity=".18"/><rect x="292" y="91" width="64" height="17" rx="8" fill="#303b35"/><rect x="302" y="97" width="44" height="4" rx="2" fill="#baff9d" opacity=".8"/><path d="M218 126q160-38 298 0" stroke="#f0f9f4" stroke-width="3" fill="none" opacity=".1"/></g>
+</svg>
